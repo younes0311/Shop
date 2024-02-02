@@ -1,0 +1,14 @@
+{
+    "editor.renderWhitespace": "none",
+    "editor.wordWrap": "off",
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "workbench.preferredDarkColorTheme": "Community Material Theme Ocean",
+    "workbench.preferredHighContrastColorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "Visual Studio Light",
+    "workbench.statusBar.visible": false,
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "diffEditor.diffAlgorithm": "legacy",
+    "diffEditor.experimental.collapseUnchangedRegions": true,
+    "diffEditor.experimental.showMoves": true
+}
