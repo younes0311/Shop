@@ -1,0 +1,39 @@
+#box {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    
+}
+
+#mini-box {
+    display: flex;
+    gap: 70px; /* Abstand zwischen den Divs */
+    background-color: blanchedalmond;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+#mini-box div {
+    text-align: center;
+    height: 160px;
+    width: 100px;
+    background-color: blue;
+    flex: 0 0 calc(22.222% - 20px); /* 3 Elemente pro Reihe (minus 20px für den Abstand) */
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#mini-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+#mini-box div img{
+    height: 100px;
+}
+
